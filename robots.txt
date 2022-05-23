@@ -1,0 +1,8 @@
+Sitemap: https://heron.pages.dev/sitemap.xml
+
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /favicon/
+Disallow: /fonts/
+Disallow: /images/
