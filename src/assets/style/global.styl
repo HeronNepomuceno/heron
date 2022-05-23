@@ -1,0 +1,48 @@
+// IMPORT FONTS
+@font-face
+	font-family AlfaSlabOne
+	src url("../fonts/6NUQ8FmMKwSEKjnm5-4v-4Jh2dJhew.woff2") format("woff2")
+	font-display swap
+@font-face
+	font-family Bitter
+	src url("../fonts/raxhHiqOu8IVPmnRc6SY1KXhnF_Y8cTfOLjOXQ.woff2") format("woff2")
+	font-display swap
+
+
+// VARIABLES 📙
+:root
+
+	// Fonts 📝
+	--fontPrimary: AlfaSlabOne, cursive
+	--fontSecondary: Bitter, serif
+
+	// Colors 🎨
+	--darkBlueColor: #001552
+	--onDarkBlueColor: #DBE1FF
+	--blackColor: #1B1B1F
+	--onBlackColor: #FFF
+
+// GLOBAL 🌍
+*
+	margin 0
+	padding 0
+
+html
+	overflow-y scroll
+	scroll-behavior smooth
+
+body
+	background var(--darkBlueColor)
+	color var(--onDarkBlueColor)
+	height 100%
+	width 100%
+
+a, button
+	background none
+	border none
+	cursor pointer
+	text-decoration none
+	transition opacity .3s
+
+ul
+	list-style none
