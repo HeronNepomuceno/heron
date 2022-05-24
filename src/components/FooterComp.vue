@@ -1,6 +1,6 @@
 <template>
 	<footer class="footer">
-		<h5 class="copyright">© {{ current_year }} Heron Nepomuceno</h5>
+		<h4 class="copyright">© {{ current_year }} Heron Nepomuceno</h4>
 		<div class="social">
 
 			<a class="link" aria-label="Visite meu Linkedin" href="https://www.linkedin.com/in/heron-nepomuceno-b3125b1b6" target="_blank">

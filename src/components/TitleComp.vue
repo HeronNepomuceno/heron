@@ -1,6 +1,6 @@
 <template>
 	<div class="title-wrapper">
-		<h4 class="title" v-bind:class="{ color_blue: color_blue_status, color_white: color_white_status}" >{{ title }}</h4>
+		<h3 class="title" v-bind:class="{ color_blue: color_blue_status, color_white: color_white_status}" >{{ title }}</h3>
 	</div>
 </template>
 

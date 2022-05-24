@@ -6,7 +6,6 @@
 		<div class="banner">
 			<h1 class="title">Heron Nepomuceno</h1>
 			<h2 class="subtitle">Desenvolvedor Frontend</h2>
-			<h3 class="subtitle">Designer UI/UX</h3>
 			<div class="button-wrapper">
 				<button class="button" @click="scrollToPresentation">
 					<svg class="icon">
@@ -80,7 +79,7 @@ export default {
 .title
 	font-family var(--fontPrimary)
 	font-size 28px
-	margin-bottom 32px
+	margin-bottom 8px
 	text-decoration underline var(--onBlackColor)
 
 	@media (min-width: 600px)
