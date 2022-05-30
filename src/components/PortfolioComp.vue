@@ -3,7 +3,7 @@
 	<title-comp title="Currículo" :color_blue_status="true"/>
 	<div class="info-wrapper">
 		<span class="info-text">Para baixar o currículo do programador, clique no botão abaixo!</span>
-		<a class="info-download" href="HeronNepomuceno-CV.pdf" download>
+		<a class="info-download" href="Curriculo-HeronNepomuceno.pdf" download>
 			<span class="info-button-text">Baixar em pdf</span>
 			<svg class="info-icon">
 				<use xlink:href="/images/icons/sprite.svg#pdf"></use>
