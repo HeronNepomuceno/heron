@@ -1,6 +1,6 @@
 <template>
-<section id="portfolio" class="contact">
-	<title-comp title="Quer saber mais ?" :color_blue_status="true"/>
+<section id="portfolio" class="portfolio">
+	<title-comp title="Currículo" :color_blue_status="true"/>
 	<div class="info-wrapper">
 		<span class="info-text">Para baixar o currículo do programador, clique no botão abaixo!</span>
 		<a class="info-download" href="HeronNepomuceno-CV.pdf" download>
@@ -25,7 +25,7 @@ export default {
 <style lang="stylus" scoped>
 @import '../assets/style/global.styl'
 
-.contact
+.portfolio
 	align-items center
 	background var(--onDarkBlueColor)
 	display flex
@@ -44,7 +44,7 @@ export default {
 .info-text
 	color var(--darkBlueColor)
 	font-size 16px
-	margin 32px 0
+	margin-bottom 32px
 	text-align center
 
 	@media (min-width 600px)

@@ -10,7 +10,8 @@
       <li class="menu-item"><a href="#apresentacao">Sobre mim</a></li>
       <li class="menu-item"><a href="#habilidades">Habilidades</a></li>
       <li class="menu-item"><a href="#projetos">Projetos</a></li>
-      <li class="menu-item"><a href="#portfolio">Saiba mais</a></li>
+      <li class="menu-item"><a href="#contato">Contato</a></li>
+      <li class="menu-item"><a href="#portfolio">Currículo</a></li>
     </ul>
   </nav>
 </template>

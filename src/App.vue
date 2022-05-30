@@ -9,7 +9,11 @@
   <image-separator-comp>
     <img src="/images/waves_reverse.svg" alt="Waves Separator">
   </image-separator-comp>
+  <contact-comp/>
   <portfolio-comp/>
+  <image-separator-comp>
+    <img src="/images/waves.svg" alt="Waves Separator">
+  </image-separator-comp>
   <footer-comp/>
 </template>
 
@@ -19,6 +23,7 @@ import PresentationComp from './components/PresentationComp.vue'
 import SkillsComp from './components/SkillsComp.vue'
 import ImageSeparatorComp from './components/ImageSeparatorComp.vue'
 import ProjectsComp from './components/ProjectsComp.vue'
+import ContactComp from './components/ContactComp.vue'
 import PortfolioComp from './components/PortfolioComp.vue'
 import FooterComp from './components/FooterComp.vue'
 
@@ -30,6 +35,7 @@ export default {
     SkillsComp,
     ImageSeparatorComp,
     ProjectsComp,
+    ContactComp,
     PortfolioComp,
     FooterComp
   }
