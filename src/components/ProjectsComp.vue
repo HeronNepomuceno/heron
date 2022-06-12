@@ -4,6 +4,13 @@
 		<div class="item-project-wrapper">
 
 			<item-project-comp 
+			project_name="Pricecryp" 
+			project_image="project_pricecryp.svg"
+			project_info="Projeto desenvolvido para mostrar, em tempo real, os preços das criptomoedas, através do consumo da API da CoinGecko."
+			:project_link="project_link_pricecryp"
+			:project_github="project_github_pricecryp"/>
+
+			<item-project-comp 
 			project_name="Portfólio 1.0" 
 			project_image="project_portfoliov1.svg"
 			project_info="Projeto desenvolvido nos padrões pessoais de design e funcionalidade, considerando sempre a responsividade e a melhor experiência do usuário independente do dispositivo que o mesmo esteja usando"
@@ -23,13 +30,6 @@
 			project_info="Projeto desenvolvido fruto de uma conversa entre amigos que buscavam ideias para se divertir em eventos sociais."
 			:project_link="project_link_atecair"
 			:project_github="project_github_atecair"/>
-
-			<item-project-comp 
-			project_name="Web Game" 
-			project_image="project_webgame.svg"
-			project_info="O projeto foi um desafio solicitado em um curso de vuejs, onde o objetivo era criar um jogo que utilizasse todos os conhecimentos visto até então no curso."
-			:project_link="project_link_webgame"
-			:project_github="project_github_webgame"/>
 
 			<item-project-comp 
 			project_name="Website FUAPI" 
@@ -60,6 +60,9 @@ export default {
 	},
 	data: function () {
     return {
+      project_link_pricecryp: "https://heronnepomuceno.github.io/pricecryp/",
+      project_github_pricecryp: "https://github.com/HeronNepomuceno/pricecryp",
+
       project_link_portfoliov1: "https://herondev.netlify.app/",
       project_github_portfoliov1: "https://github.com/HeronNepomuceno/portfolio",
 

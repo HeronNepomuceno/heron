@@ -27,6 +27,11 @@
 					<use xlink:href="/images/icons/sprite.svg#stylus-tech"></use>
 				</svg>
 			</item-tech-comp>
+			<item-tech-comp tech_name="TAILWIND">
+				<svg class="icon">
+					<use xlink:href="/images/icons/sprite.svg#tailwind-tech"></use>
+				</svg>
+			</item-tech-comp>
 			<item-tech-comp tech_name="FIGMA">
 				<svg class="icon">
 					<use xlink:href="/images/icons/sprite.svg#figma-tech"></use>
