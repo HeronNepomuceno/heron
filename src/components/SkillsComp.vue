@@ -47,6 +47,16 @@
 					<use xlink:href="/images/icons/sprite.svg#github-tech"></use>
 				</svg>
 			</item-tech-comp>
+			<item-tech-comp tech_name="REACT">
+				<svg class="icon">
+					<use xlink:href="/images/icons/sprite.svg#react"></use>
+				</svg>
+			</item-tech-comp>
+			<item-tech-comp tech_name="SASS">
+				<svg class="icon">
+					<use xlink:href="/images/icons/sprite.svg#sass"></use>
+				</svg>
+			</item-tech-comp>
 		</div>
 	</section>
 </template>
