@@ -32,13 +32,6 @@
 			:project_github="project_github_atecair"/>
 
 			<item-project-comp 
-			project_name="Website FUAPI" 
-			project_image="project_fuapi.svg"
-			project_info="O projeto trata-se de um website informativo sobre a Fundação de Apoio ao Desenvolvimento Educacional, Governança e Meio Ambiente da UESPI."
-			:project_link="project_link_fuapi"
-			:project_github="project_github_fuapi"/>
-
-			<item-project-comp 
 			project_name="CSS Order Caker" 
 			project_image="project_cssorder.svg"
 			project_info="O projeto consiste em criar uma ferramenta capaz de organizar o CSS do programador em ordem alfabética, para que o código fique mais legível e intuitivo."
@@ -74,9 +67,6 @@ export default {
 
       project_link_webgame: "https://www.linkedin.com/feed/update/urn:li:activity:6902715882272108545/",
       project_github_webgame: "https://github.com/HeronNepomuceno/paladino-vs-dragao",
-
-      project_link_fuapi: "https://fuapi.netlify.app/",
-      project_github_fuapi: "https://github.com/HeronNepomuceno/FUAPI",
 
       project_link_cssorder: "https://css-order-caker.netlify.app/",
       project_github_cssorder: "https://github.com/HeronNepomuceno/css-order-caker"
