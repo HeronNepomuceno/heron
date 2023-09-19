@@ -3,7 +3,7 @@
     <title-comp title="Sobre mim" :color_blue_status="true"/>
     <div class="group-section">
       <span class="info">
-        Programador frontender apaixonado pela área, depência por café assumida, apreciador de lo-fi, gamer nas horas vagas e praticante de ciclismo.
+        Um entusiasta da programação web, confesso amante de café, apreciador da música lo-fi, jogador nas horas de folga e adepto do ciclismo.
       </span>
       <div class="image-wrapper">
         <img class="image" src="/images/presentation.svg" alt="Presentation Hello">
