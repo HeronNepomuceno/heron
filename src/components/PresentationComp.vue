@@ -3,7 +3,7 @@
     <title-comp title="Sobre mim" :color_blue_status="true"/>
     <div class="group-section">
       <span class="info">
-        Um entusiasta da programação web, confesso amante de café, apreciador da música lo-fi, jogador nas horas de folga e adepto do ciclismo.
+        Programador web full stack, aprecio a música lo-fi, desfruto de jogos eletrônicos durante o tempo livre e sou adepto do ciclismo.
       </span>
       <div class="image-wrapper">
         <img class="image" src="/images/presentation.svg" alt="Presentation Hello">
