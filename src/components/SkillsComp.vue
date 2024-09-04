@@ -57,6 +57,12 @@
 					<use xlink:href="/images/icons/sprite.svg#sass"></use>
 				</svg>
 			</item-tech-comp>
+
+			<item-tech-comp tech_name="SVELTE">
+				<svg class="icon">
+					<use xlink:href="/images/icons/sprite.svg#svelte"></use>
+				</svg>
+			</item-tech-comp>
 		</div>
 	</section>
 </template>
