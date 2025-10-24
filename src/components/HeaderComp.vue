@@ -5,7 +5,7 @@
 		</div>
 		<div class="banner">
 			<h1 class="title">Heron Nepomuceno</h1>
-			<h2 class="subtitle">Desenvolvedor Frontend</h2>
+			<h2 class="subtitle">Desenvolvedor Full Stack</h2>
 			<div class="button-wrapper">
 				<button class="button" @click="scrollToPresentation">
 					<svg class="icon">
