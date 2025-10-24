@@ -3,6 +3,20 @@
 		<title-comp title="Projetos" :color_white_status="true"/>
 		<div class="item-project-wrapper">
 
+		<item-project-comp 
+			project_name="Estética Unitá" 
+			project_image="project_unita.svg"
+			project_info="Website desenvolvido para uma clínica de estética, com foco em apresentar os serviços, a equipe e o espaço de atendimento. O projeto priorizou a experiência do usuário, responsividade e a identidade visual da clínica, garantindo uma presença online elegante e acessível."
+			:project_link="project_link_unita"
+			:project_github="project_github_unita"/>
+
+		<item-project-comp 
+			project_name="Hoteleiro" 
+			project_image="project_hoteleiro.svg"
+			project_info="Website desenvolvido para minha startup Hoteleiro, vencedora do programa Startup Nordeste 2025. O projeto tem como objetivo apresentar nossa solução de gestão hoteleira de forma intuitiva, destacando a proposta da empresa e a experiência do usuário."
+			:project_link="project_link_hoteleiro"
+			:project_github="project_github_hoteleiro"/>
+
 			<item-project-comp 
 			project_name="Pricecryp" 
 			project_image="project_pricecryp.svg"
@@ -31,13 +45,6 @@
 			:project_link="project_link_atecair"
 			:project_github="project_github_atecair"/>
 
-			<item-project-comp 
-			project_name="CSS Order Caker" 
-			project_image="project_cssorder.svg"
-			project_info="O projeto consiste em criar uma ferramenta capaz de organizar o CSS do programador em ordem alfabética, para que o código fique mais legível e intuitivo."
-			:project_link="project_link_cssorder"
-			:project_github="project_github_cssorder"/>
-
 		</div>
 	</section>
 </template>
@@ -53,6 +60,12 @@ export default {
 	},
 	data: function () {
     return {
+      project_link_unita: "https://unita-estetica.netlify.app/",
+      project_github_unita: "https://github.com/HeronNepomuceno/unita-site",
+
+      project_link_hoteleiro: "https://hoteleiro.app/",
+      project_github_hoteleiro: "http://www.pi.gov.br/startup-hoteleiro-estudantes-da-uespi-transformam-ideia-em-negocio-inovador/",
+
       project_link_pricecryp: "https://heronnepomuceno.github.io/pricecryp/",
       project_github_pricecryp: "https://github.com/HeronNepomuceno/pricecryp",
 
