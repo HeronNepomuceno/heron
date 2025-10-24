@@ -3,10 +3,11 @@
     <title-comp title="Sobre mim" :color_blue_status="true"/>
     <div class="group-section">
       <span class="info">
-        Programador web full stack, aprecio a música lo-fi, desfruto de jogos eletrônicos durante o tempo livre e sou adepto do ciclismo.
+        Sou Heron Nepomuceno, desenvolvedor com mais de 4 anos de experiência na criação de sites, sistemas e aplicações web.
+        Bacharel em Ciência da Computação pela Universidade Estadual do Piauí, tenho paixão por transformar ideias em soluções digitais que unem design intuitivo, desempenho e propósito.
       </span>
       <div class="image-wrapper">
-        <img class="image" src="/images/presentation.svg" alt="Presentation Hello">
+        <img class="image" src="/images/presentation.jpg" alt="Presentation Hello">
       </div>
     </div>
   </section>
@@ -48,26 +49,27 @@ export default {
   justify-content center
   width 100%
 
-  @media (min-width: 600px)
+  @media (min-width: 840px)
     flex-direction row
 
 .info
-  font-size 18px
+  font-size 16px
+  font-weight 400
   text-align center
   width 100%
 
   @media (min-width: 600px)
-    font-size 24px
+    font-size 18px
     margin-right 16px
 
   @media (min-width: 840px)
-    font-size 36px
+    font-size 26px
 
   &::first-letter
-    font-size 36px
+    font-size 48px
 
     @media (min-width: 840px)
-      font-size 80px
+      font-size 68px
 
 .image-wrapper
   align-items center
