@@ -4,8 +4,8 @@
   <image-separator-comp>
     <img src="/images/waves.svg" alt="Waves Separator">
   </image-separator-comp>
-  <skills-comp/>
   <projects-comp/>
+  <skills-comp/>
   <image-separator-comp>
     <img src="/images/waves_reverse.svg" alt="Waves Separator">
   </image-separator-comp>
