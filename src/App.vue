@@ -1,5 +1,8 @@
 <template>
   <header-comp/>
+  <image-separator-comp>
+    <img src="/images/waves_reverse.svg" alt="Waves Separator">
+  </image-separator-comp>
   <presentation-comp/>
   <image-separator-comp>
     <img src="/images/waves.svg" alt="Waves Separator">
