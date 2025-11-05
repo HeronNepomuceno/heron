@@ -2,14 +2,6 @@
 	<section id="projetos" class="projects">
 		<div class="container">
 			<div class="header">
-				<div class="badge">
-					<svg class="badge-icon" viewBox="0 0 24 24" fill="none">
-						<path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-					</svg>
-					<span>Portfólio</span>
-				</div>
 				
 				<h2 class="title">
 					<span class="highlight">Projetos</span> em Destaque
@@ -126,31 +118,6 @@ export default {
 
 	@media (min-width: 768px)
 		margin-bottom 80px
-
-.badge
-	display inline-flex
-	align-items center
-	gap 8px
-	background linear-gradient(135deg, rgba(219, 225, 255, 0.1), rgba(219, 225, 255, 0.05))
-	border 1px solid rgba(219, 225, 255, 0.2)
-	border-radius 100px
-	padding 8px 20px
-	margin-bottom 24px
-	backdrop-filter blur(10px)
-
-	.badge-icon
-		width 20px
-		height 20px
-		stroke var(--onDarkBlueColor)
-
-	span
-		font-family var(--fontSecondary)
-		font-size 14px
-		font-weight 600
-		color var(--onDarkBlueColor)
-
-		@media (min-width: 768px)
-			font-size 16px
 
 .title
 	font-family var(--fontPrimary)
