@@ -1,22 +1,26 @@
 <template>
   <header-comp/>
-  <image-separator-comp>
-    <img src="/images/waves_reverse.svg" alt="Waves Separator">
-  </image-separator-comp>
-  <presentation-comp/>
-  <image-separator-comp>
-    <img src="/images/waves.svg" alt="Waves Separator">
-  </image-separator-comp>
-  <projects-comp/>
-  <skills-comp/>
-  <image-separator-comp>
-    <img src="/images/waves_reverse.svg" alt="Waves Separator">
-  </image-separator-comp>
-  <contact-comp/>
-  <portfolio-comp/>
-  <image-separator-comp>
-    <img src="/images/waves.svg" alt="Waves Separator">
-  </image-separator-comp>
+
+  <main>
+    <image-separator-comp>
+      <img src="/images/waves_reverse.svg" alt="Waves Separator">
+    </image-separator-comp>
+    <presentation-comp/>
+    <image-separator-comp>
+      <img src="/images/waves.svg" alt="Waves Separator">
+    </image-separator-comp>
+    <projects-comp/>
+    <skills-comp/>
+    <image-separator-comp>
+      <img src="/images/waves_reverse.svg" alt="Waves Separator">
+    </image-separator-comp>
+    <contact-comp/>
+    <portfolio-comp/>
+    <image-separator-comp>
+      <img src="/images/waves.svg" alt="Waves Separator">
+    </image-separator-comp>
+  </main>
+
   <footer-comp/>
 
   <!-- WhatsApp Floating Action Button -->
